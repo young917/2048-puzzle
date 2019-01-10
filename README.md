@@ -13,25 +13,25 @@ FLOW CHART
 
 FUNCTION: Role
 ---
-++*init()++*:
+`init():`
 
 set values for starting game.
 
-*rotate(int board[4][4])*:
+`rotate(int board[4][4]):`
 
 rotate board 90 degrees to the right.
 
-*set_board(int dir, int board[4][4])*:
+`set_board(int dir, int board[4][4]):`
 
 move blocks to the entered direction.
 
 And, return 1 if it is possible to move at least one block as direction.
 
-*is_game_ovver()*:
+`is_game_ovver():`
 
 return 0 if it is impossible to move any block to any direction.
 
-*draw_board(int total_sum, int command)*:
+`draw_board(int total_sum, int command):`
 
 print board to screen.
 
@@ -39,15 +39,15 @@ store board, grade in output.txt.
 
 confirm that sum of numbers in board is same as input total_sum.
 
-*make_two_or_four()*:
+`make_two_or_four():`
 
 generate 2 or 4 number in the blank of the board randomly.
 
-*getch()*:
+`getch():`
 
 return key-board that user enterd.
 
-*GetCommand()*:
+`GetCommand():`
 
 return 0 if entered key is 'D' or 'd'.
 
