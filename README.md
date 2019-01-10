@@ -60,3 +60,28 @@ return 3 if entered key is 'S' or 's'.
 
 FUNCTION: Description
 ---
+
+`set_board(int direction, int board[4][4])`
+
+Move blocks to 'up' direction for any entered direction.
+
+To do this, rotate board according to entered direction and move blocks to 'up' direction and then return to original by rotating.
+
+
+`is_game_over()`
+
+create int temp[4][4] which is same as present board.
+
+By Applying all direction to temp one by one seperately, judge there is possibility to move any blocks.
+
+For doing this, call 'set_board' function with argument '0', '1', '2', '3' for direction.
+
+If 'set_board' function returns 0 for all direction, it means game is over.
+
+`make_two_or_four()`
+
+(((rand()%3)%2)+1)*2 is 2 at a probability of 2/3 and 4 at a probability of 1/3.
+
+Find blank randomly and put above number.
+
+
