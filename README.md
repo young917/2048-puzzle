@@ -13,7 +13,7 @@ FLOW CHART
 
 FUNCTION: Role
 ---
-++*init()*++:
+++*init()++*:
 
 set values for starting game.
 
